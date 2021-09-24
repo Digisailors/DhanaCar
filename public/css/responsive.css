@@ -234,7 +234,7 @@
         line-height: 20px;
         overflow: hidden;
         text-overflow: ellipsis;
-        white-space: nowrap;
+        /* white-space: nowrap; */
     }
     .section-title {padding-bottom: 50px;}
     .col-md-4:last-child .single-service {padding: 0;}
