@@ -26,7 +26,6 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/responsive.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <script src="js/contact_validate.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -145,6 +144,7 @@
                             <h5>Number phone</h5>
                             <div class="c-divider"></div>
                             <span style="font-size:14px;"> +(91) 944210 3366 <br>+(91) 9942203366</span>
+                            <span style="font-size:14px;"> +(91) 944210 3366 <br>+(91) 9942203366</span>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4" style="font-size: 16px;">
@@ -152,7 +152,7 @@
                             <span class="icon icon-Pointer"></span>
                             <h5>Address</h5>
                             <div class="c-divider"></div>
-                            <span style="font-size:14px;">No 4E/332A,<br> Ettayapuram Road,Tuticorin-2.</span>
+                            <span style="font-size:14px;">No 4E/32A,<br> Ettayapuram Road,Tuticorin-2.</span>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4" style="font-size: 16px;">
@@ -181,8 +181,8 @@
                 <div class="contact-form-wrapper fix">
                       
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-onload="if(submitted)  { alert('Thanks for showing interest, Our team will contact you.'); window.location='https://www.google.com';}"></iframe>
-                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe2M_5T1SalovB_HuMJ8hYPt45ocotU8vucdM4QyAGdlf_d7g/formResponse" target= "_self" method="POST" id="mG61Hd" class="contact-form">
+onload="if(submitted)  { window.location='https://dhanacars.web.app/';}"></iframe>
+                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe2M_5T1SalovB_HuMJ8hYPt45ocotU8vucdM4QyAGdlf_d7g/formResponse" target= "hidden_iframe" method="POST" id="mG61Hd" class="contact-form" onsubmit="return validateForm()">
                         
                         <div class="row">
                             <div class="col-md-6">
@@ -266,15 +266,13 @@ onload="if(submitted)  { alert('Thanks for showing interest, Our team will conta
                                 <div class="footer-info-wrapper">
                                     <div class="f-info">
                                         <span class="icon icon-Pointer"></span>
-                                        <span class="f-info-text">4E/332A, Ettayapuram Road,<br>Tuticorin-2.</span>
+                                        <span class="f-info-text">4E/32A, Ettayapuram Road,<br>Tuticorin-2.</span>
                                     </div>
                                     <div class="f-info">
                                         <span class="icon icon-Phone"></span>
-                                        <span class="f-info-text" style="line-height: 1.5;">+(91) 944210 3366 &nbsp;<br>+(91) 99422-03366
-                                           
-
+                                        <span class="f-info-text" style="line-height: 1.5;">+(91) 94421 03366 &nbsp;<br>+(91) 99422 03366
                                         </span>
-                                    </div>
+                                      </div>
                                     <div class="f-info">
                                         <span class="icon icon-Mail"></span>
                                         <span class="f-info-text">chakravarthy@dhanacars.com</span>
@@ -432,6 +430,7 @@ onload="if(submitted)  { alert('Thanks for showing interest, Our team will conta
         <script src="js/imagesloaded.pkgd.min.js"></script>	
         <script src="js/ajax-mail.js"></script> 
         <script src="js/plugins.js"></script>
+        <script src="js/contact_validate.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMlLa3XrAmtemtf97Z2YpXwPLlimRK7Pk"></script>
         <script type="text/javascript">
             google.maps.event.addDomListener(window, 'load', init);
