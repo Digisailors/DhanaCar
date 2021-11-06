@@ -1305,6 +1305,15 @@ iframe {width: 100%; border: 0;}
     margin-left: 127px;
     padding: 21px 20px;
 }
+.bgimg {
+    background: url(img/bg/1920x933.jpg);
+    height:max-content;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+  
+  }
 .reply .comment-text > p {color: #90939c;}
 .reply .comment-info > a {color: #353535; font-size: 12px; top: 0;}
 .reply .comment-img {width: 76px;}
