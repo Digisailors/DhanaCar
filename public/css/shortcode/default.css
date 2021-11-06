@@ -73,7 +73,7 @@
 }
 html, body {height: 100%;}
 body {
-	color: #90939c;
+	color: #ffffff;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
@@ -608,7 +608,7 @@ textarea:focus {box-shadow: none; outline: 0}
 	background-size: cover; 
 	position: relative; 
 }
-.bg-1 { background-image: url(../../img/bg/1.jpg);}
+.bg-1 { background-image: url("../../img/bg/1.jpg");}
 .bg-2 { background-image: url("../../img/bg/2.jpg");}
 .bg-3 { background-image: url("../../img/bg/3.jpg");}
 .bg-4 { background-image: url("../../img/bg/4.jpg"); background-position: top center}
