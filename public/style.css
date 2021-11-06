@@ -612,11 +612,11 @@
 /*----------------------------------------*/
 /*  11. Homepage Two
 /*----------------------------------------*/
-.service-two-area .single-service > h5, .service-three-area .single-service > h5 {color: #181b24;}
+.service-two-area .single-service > h5, .service-three-area .single-service > h5 {color: #e8eaf1;}
 .service-two-area .single-service:hover h5, .service-three-area .single-service:hover h5 {color: #e51515;}
 .service-two-area .srv-icon > img, .service-three-area .srv-icon > img {filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.01" /><feFuncG type="linear" slope="0.01" /><feFuncB type="linear" slope="0.01" /></feComponentTransfer><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /></feComponentTransfer></filter></svg>#filter');-webkit-filter: brightness(1%) invert(0);filter: brightness(1%) invert(0);}
 .service-two-area .single-service:after, .service-three-area .single-service:after {
-    border-color: #181b24;
+    border-color: #fdfdfd;
     opacity: 0.1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 }
@@ -1305,6 +1305,15 @@ iframe {width: 100%; border: 0;}
     margin-left: 127px;
     padding: 21px 20px;
 }
+.bgimg {
+    background: url(img/bg/1920x933.jpg);
+    height:max-content;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+  
+  }
 .reply .comment-text > p {color: #90939c;}
 .reply .comment-info > a {color: #353535; font-size: 12px; top: 0;}
 .reply .comment-img {width: 76px;}
